@@ -4,14 +4,6 @@ body {
    font-family: 'Montserrat', sans-serif;
 }
 
-#title {
-   background-color: #ff4c68;
-}
-
-.container-fluid {
-   padding: 2% 15%;
-}
-
 h1 {
    color: white;
    font-family: 'Montserrat-Black', sans-serif;
@@ -21,10 +13,30 @@ h1 {
    margin-top: 50px;
 }
 
-#dogimg {
+h3 {
+   font-weight: bolder;
+}
+
+h2 {
+   font-weight: bolder;
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+#title {
+   background-color: #ff4c68;
+}
+
+.container-fluid {
+   padding: 3% 15% 7%;
+}
+
+.title-img {
    padding-top: 40px;
-   transform: rotate(25deg);
-   width: 40%;
+   transform: rotate(17deg);
+   width: 22%;
+   position: absolute;
+   right: 22%;
 }
 
 .navbar {
@@ -52,6 +64,8 @@ h1 {
 
 #features {
    padding: 7% 15%;
+   background-color: white;
+   position: relative;
 }
 
 .featicon {
@@ -70,23 +84,12 @@ h1 {
    padding: 5%;
 }
 
-h3 {
-   font-weight: bolder;
-}
-
-h2 {
-   font-weight: bolder;
-   font-size: 3rem;
-   line-height: 1.5;
-}
-
 .featcontent {
    color: #5f5f5f;
    font-weight: bold;
 }
 
-#testimonials {
-   padding: 7% 15%;
+#testimonials {  
    text-align: center;
    background-color: #ef8172;
    color: white;
@@ -99,6 +102,10 @@ h2 {
    margin: 20px;
 }
 
+.carousel-item {
+   padding: 7% 15%;
+}
+
 #press {
    background-color: #ef8172;
    text-align: center;
@@ -108,4 +115,59 @@ h2 {
 .press-image {
    width: 15%;
    margin: 20px 20px 40px;
+}
+
+#pricing {
+   padding: 100px;
+   text-align: center;
+}
+
+.pricing-column {
+   padding: 3% 2%;
+}
+
+#btnb {
+   padding: 2% 25%;
+}
+
+.image-container {
+   position: relative;
+}
+
+#cta {
+   background-color: #ff4c68;
+   color: white;
+   padding: 7% 15%;
+   text-align: center;
+}
+
+.ctah {
+   font-size: 75px;
+   font-weight: bolder;
+   line-height: 1.5;
+   margin-bottom: 60px;
+}
+
+#footer {
+   padding: 7% 15%;
+   text-align: center;
+}
+
+.footer-icon {
+   margin: 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+   #title {
+      text-align: center;
+   }
+   
+   .title-img {
+      position: static;
+      transform: rotate(0);
+      width: 65%;
+   }
+
 }
